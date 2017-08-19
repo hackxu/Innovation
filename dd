@@ -1,0 +1,140 @@
+<!--<div class="swiper-slide">-->
+            <!--<img src="images/1-1.png" class="ani triangle-one" swiper-animate-effect="emp_rollingCW"-->
+            <!--swiper-animate-duration="5s" alt="1.png">-->
+            <!--<img src="images/1-1.png" class="ani triangle-four" swiper-animate-effect="emp_rollingACW"-->
+            <!--swiper-animate-duration="5s" alt="1.png">-->
+            <!--<img src="images/1-2.png" class="ani triangle-two" swiper-animate-effect="emp_rollingCW"-->
+            <!--swiper-animate-duration="5s" alt="">-->
+            <!--<img src="images/1-3.png" class="ani triangle-three" swiper-animate-effect="emp_rollingCW"-->
+            <!--swiper-animate-duration="5s" alt="">-->
+            <!--<img src="images/1-4.png" class="ani circle" swiper-animate-effect="emp_flash"-->
+            <!--swiper-animate-duration="5s" swiper-animate-delay="2s" alt="">-->
+            <!--<img src="images/1-5.png" class="ani triangle-more" swiper-animate-effect="fadeInt"-->
+            <!--swiper-animate-duration="0.1s" swiper-animate-delay="1.8s" alt="">-->
+            <!--<img src="images/1-6.png" class="ani hands" swiper-animate-effect="fadeIne"-->
+            <!--swiper-animate-duration=".1s" swiper-animate-delay="1.5s" alt="">-->
+            <!--<img src="images/1-7.png" class="ani go" swiper-animate-effect="fadeIn" swiper-animate-duration="1s"-->
+            <!--swiper-animate-delay="2s" alt="">-->
+            <!--<img src="images/1-8.png" class="ani word-four" swiper-animate-effect="ent_moveInTop"-->
+            <!--swiper-animate-duration="1.5s" alt="">-->
+            <!--<img src="images/1-9.png" class="ani word-one" swiper-animate-effect="ent_moveInTop"-->
+            <!--swiper-animate-duration="1.5s" alt="">-->
+            <!--<img src="images/1-10.png" class="ani word-two" swiper-animate-effect="ent_moveInTop"-->
+            <!--swiper-animate-duration="1.5s" alt="">-->
+            <!--<img src="images/2017.png" class="ani year" swiper-animate-effect="ent_moveInBottom"-->
+            <!--swiper-animate-duration="1.5s" alt="">-->
+            <!--<img src="images/1-11.png" class="ani word-three" swiper-animate-effect="ent_moveInTop"-->
+            <!--swiper-animate-duration="1.5s" alt="">-->
+            <!--<img src="images/1-12.png" class="ani kuang" swiper-animate-effect="ent_rotateInCW"-->
+            <!--swiper-animate-duration="1s" alt="">-->
+            <!--<div class="line-l ani" swiper-animate-effect="ent_moveInRight" swiper-animate-duratioin="1.5s"></div>-->
+            <!--<div class="line-r ani" swiper-animate-effect="ent_moveInLeft" swiper-animate-duratioin="1.5s"></div>-->
+            <!--&lt;!&ndash;<span class="ani rotate-div"> Slide 1</span>&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="swiper-slide">-->
+            <!--<img src="images/2-1.png" alt="" class="ani left-k" swiper-animate-effect="ent_rotateInCW"-->
+            <!--swiper-animate-duration="1.5s">-->
+            <!--<img src="images/2-2.png" alt="" class="ani left-word" swiper-animate-effect="ent_moveInBottom"-->
+            <!--swiper-animate-duration="1.5s">-->
+            <!--<img src="images/2-3.png" alt="" class="ani th-word" swiper-animate-effect="ent_moveInBottom"-->
+            <!--swiper-animate-duration="1.5s">-->
+            <!--<img src="images/sanjiao.png" alt="" class="ani left-sanjiao" swiper-animate-effect="emp_rollingCW"-->
+            <!--swiper-animate-duration="5s">-->
+            <!--<img src="images/2-5.png" alt="" class="ani video-lin" swiper-animate-effect="ent_moveInTop"-->
+            <!--swiper-animate-duration="1s" swiper-animate-delay="1s">-->
+            <!--<video poster="images/in2video.png" style="width: 100%; display: block;" class="ani myvideo"-->
+            <!--swiper-animate-effect="ent_moveInBottom" swiper-animate-duration="1s" swiper-animate-delay="1.5s"-->
+            <!--id="myvideo"-->
+            <!--preload="" webkit-playsinline="">-->
+            <!--<source src="http://vod.v.jstv.com/video/2016/9/7/2016971473229803328_132_1354.mp4"-->
+            <!--type="video/mp4">-->
+            <!--</video>-->
+            <!--<div class="ze ani" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s"></div>-->
+            <!--&lt;!&ndash;<span class="ani" swiper-animate-effect="ArrowSwingUp" swiper-animate-duration=".5s"&ndash;&gt;-->
+            <!--&lt;!&ndash;swiper-animate-delay="1s"> Slide 2</span>&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration=".5s"&ndash;&gt;-->
+            <!--&lt;!&ndash;swiper-animate-delay="3s"> Slide 23</span>&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="swiper-slide">-->
+                <!--<img src="images/2-1.png" alt="" class="ani left-k" swiper-animate-effect="ent_rotateInCW"-->
+                     <!--swiper-animate-duration="1.5s">-->
+                <!--<img src="images/2-2.png" alt="" class="ani left-word" swiper-animate-effect="ent_moveInBottom"-->
+                     <!--swiper-animate-duration="1.5s">-->
+                <!--<img src="images/sanjiao.png" alt="" class="ani left-sanjiao" swiper-animate-effect="emp_rollingCW"-->
+                     <!--swiper-animate-duration="5s">-->
+                <!--<div class="ze ani" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s"></div>-->
+                <!--<img src="images/3-1.png" alt="" class="ani th-word" swiper-animate-effect="ent_moveInBottom"-->
+                     <!--swiper-animate-duration="1.5s">-->
+                <!--<img src="images/3-2.png" alt="" class="ani f-word" swiper-animate-effect="ent_moveInBottom"-->
+                     <!--swiper-animate-duration="1.5s">-->
+                <!--<img src="images/1-5.png" class="ani triangle-more" swiper-animate-effect="fadeInt"-->
+                     <!--swiper-animate-duration="0.1s" swiper-animate-delay="1.8s" alt="">-->
+                <!--<img src="images/3-3.png" class="ani f-fenxian" swiper-animate-effect="ent_moveInRight"-->
+                     <!--swiper-animate-duration="0.1s" swiper-animate-delay="1.5s" alt="">-->
+                <!--<img src="images/3-4.png" class="ani f-word-t" swiper-animate-effect="ent_moveInRight"-->
+                     <!--swiper-animate-duration="0.1s" swiper-animate-delay="1.8s" alt="">-->
+                <!--<img src="images/3-5.png" class="ani f-word-th" swiper-animate-effect="ent_moveInRight"-->
+                     <!--swiper-animate-duration="0.1s" swiper-animate-delay="2.1s" alt="">-->
+
+            <!--</div>-->
+               <div class="swiper-slide">
+                            <img src="images/2-1.png" alt="" class="ani left-k" swiper-animate-effect="ent_rotateInCW"
+                                 swiper-animate-duration="1.5s">
+                            <img src="images/4-1.png" alt="" class="ani left-word" swiper-animate-effect="ent_moveInBottom"
+                                 swiper-animate-duration="1.5s">
+                            <img src="images/sanjiao.png" alt="" class="ani left-sanjiao" swiper-animate-effect="emp_rollingCW"
+                                 swiper-animate-duration="5s">
+                            <div class="ze ani" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s"></div>
+                            <img src="images/4-3.png" class="ani fi-word-o" swiper-animate-effect="ent_moveInRight"
+                            swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">
+                            <img src="images/4-4.png" class="ani fi-img-o" swiper-animate-effect="ent_zoomIn"
+                            swiper-animate-duration="1s" swiper-animate-delay="1.3s" alt="">
+                            <img src="images/4-5.png" class="ani fi-word-t" swiper-animate-effect="ent_moveInRight"
+                            swiper-animate-duration="1s" swiper-animate-delay="1.6s" alt="">
+                            <img src="images/4-6.png" class="ani fi-img-t" swiper-animate-effect="ent_moveInRight"
+                            swiper-animate-duration="1s" swiper-animate-delay="1.9s" alt="">
+                            <img src="images/4-7.png" class="ani fi-img-th" swiper-animate-effect="ent_moveInLeft"
+                            swiper-animate-duration="1s" swiper-animate-delay="1.9s" alt="">
+                            <img src="images/4-8.png" class="ani fi-word-th" swiper-animate-effect="ent_moveInRight"
+                            swiper-animate-duration="1s" swiper-animate-delay="2.1s" alt="">
+                            <img src="images/4-9.png" class="ani fi-img-six" swiper-animate-effect="ent_moveInRight"
+                            swiper-animate-duration="1s" swiper-animate-delay="2.4s" alt="">
+                            <img src="images/4-7.png" class="ani fi-img-se" swiper-animate-effect="ent_moveInLeft"
+                                 swiper-animate-duration="1s" swiper-animate-delay="2.4s" alt="">
+
+
+                        </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/2-1.png" alt="" class="ani left-k" swiper-animate-effect="ent_rotateInCW"
+                                             swiper-animate-duration="1.5s">
+                                        <img src="images/5-1.png" alt="" class="ani left-word" swiper-animate-effect="ent_moveInBottom"
+                                             swiper-animate-duration="1.5s">
+                                        <img src="images/sanjiao.png" alt="" class="ani left-sanjiao" swiper-animate-effect="emp_rollingCW"
+                                             swiper-animate-duration="5s">
+                                        <img src="images/1-5.png" class="ani triangle-more " swiper-animate-effect="fadeInt"
+                                        swiper-animate-duration="0.1s" swiper-animate-delay="1.8s" alt="">
+                                        <div class="ze ani" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s"></div>
+
+                                        <img src="images/5-2.png" class="ani si-word-o" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s" alt="">
+                                        <img src="images/5-3.png" class="ani si-word-t" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s" swiper-animate-delay="1.8s" alt="">
+                                        <img src="images/5-4.png" class="ani si-word-th" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s" swiper-animate-delay="2.1s"  alt="">
+                                        <img src="images/5-5.png" class="ani si-word-f" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s" swiper-animate-delay="2.4s"  alt="">
+                                        <img src="images/5-6.png" class="ani si-word-fi" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s" swiper-animate-delay="2.7s"  alt="">
+                                        <img src="images/5-7.png" class="ani si-word-si" swiper-animate-effect="ent_moveInRight" swiper-animate-duration="1s" swiper-animate-delay="3s"  alt="">
+                                    </div>
+                                 <div class="swiper-slide">
+                                                 <img src="images/2-1.png" alt="" class="ani left-k" swiper-animate-effect="ent_rotateInCW"
+                                                      swiper-animate-duration="1.5s">
+                                                 <img src="images/6-1.png" alt="" class="ani left-word" swiper-animate-effect="ent_moveInBottom"
+                                                      swiper-animate-duration="1.5s">
+                                                 <img src="images/1-5.png" class="ani triangle-more triangle-more-t " swiper-animate-effect="fadeInt"
+                                                      swiper-animate-duration="0.1s" swiper-animate-delay="1s" alt="">
+                                                 <img src="images/jj.png" class="ani anpai-img-o" swiper-animate-effect="ent_moveInBottom" swiper-animate-duration="1s" swiper-animate-delay="1s" alt="">
+
+                                                 <img src="images/6-2.png" class="ani anpai-img-t" swiper-animate-effect=" ent_moveInTop" swiper-animate-duration="1s" swiper-animate-delay="1.5s" alt="">
+                                                 <div class="six-bg ani"  swiper-animate-effect="ent_moveInBottom" swiper-animate-duration="1s" swiper-animate-delay="0s">
+
+                                                 </div>
+                                                 <img src="images/6-3.png" class="ani anpai-img-th" swiper-animate-effect="ent_moveInTop" swiper-animate-duration="1s" swiper-animate-delay="1.5s" alt="">
+
+                                             </div>
