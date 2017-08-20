@@ -422,13 +422,31 @@
         document.getElementById("musicOff").style.display = "none";
 
     }
+    //微信背景音乐自动播放，仅对微信有效，iOS默认不能自动播放
+    function audioAutoPlay(id){
+        var audio = document.getElementById(id),
+            play = function(){
+                audio.play();
+                document.removeEventListener("touchstart",play, false); //点击屏幕启动播放，特殊情况下需要在滑动等动作时启动播放
+            };
+        audio.play();
+        document.addEventListener("WeixinJSBridgeReady", function () {//微信
+            play();
+        }, false);
+        document.addEventListener('YixinJSBridgeReady', function() {//易信
+            play();
+        }, false);
+        document.addEventListener("touchstart",play, false);
+    }
 
     document.onreadystatechange = function () {
         if (document.readyState == "complete") {
             $("#bg").fadeOut();
 //            alert('1')
             init()
-            musicPlay()
+            musicPlay();
+            audioAutoPlay('audio');
+
             var mySwiper = new Swiper('.swiper-container', {
                 direction: 'vertical',
 //            effect:"flip",
