@@ -109,15 +109,66 @@
         .ni-logo { width: 64.4%; position: absolute; top: 74%; left: 17.8%; }
         .last-hands { width: 56%; position: absolute; top: 45%; left: 22%; }
         .erweima { width: 59%; position: absolute; top: 16.5%; left: 20.5%; }
+
+        .loading{
+            width: 80px;
+            height: 40px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+        }
+        .loading span{
+            display: inline-block;
+            width: 8px;
+            height: 100%;
+            border-radius: 4px;
+            background: lightgreen;
+            -webkit-animation: load 1s ease infinite;
+        }
+        @-webkit-keyframes load{
+            0%,100%{
+                height: 40px;
+                background: lightgreen;
+            }
+            50%{
+                height: 70px;
+                margin: -15px 0;
+                background: lightblue;
+            }
+        }
+        .loading span:nth-child(2){
+            -webkit-animation-delay:0.2s;
+        }
+        .loading span:nth-child(3){
+            -webkit-animation-delay:0.4s;
+        }
+        .loading span:nth-child(4){
+            -webkit-animation-delay:0.6s;
+        }
+        .loading span:nth-child(5){
+            -webkit-animation-delay:0.8s;
+        }
+        #bg{ width:100%; height:100%;background: #000; position: fixed; top:0; left:0; z-index:999;}
+
     </style>
 </head>
 <body>
 <div id="main">
+    <div id="bg">
+        <div class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
     <div class="rotate-div">fuck有</div>
     <div class=" nav-up-arrow">
         <img src="images/up_arrow.png" alt="">
     </div>
-    <audio id="audio" src="http://www.jstv.com/h5/indcompetition/wechat/bg.mp3" autoplay="autoplay"
+    <audio id="audio" src="http://www.jstv.com/h5/indcompetition/wechat/bg.mp3"
            style="display: none;"></audio>
     <div id="myMusic">
         <img id="musicOn" style="animation: musicPlaying 5s linear infinite;"
@@ -374,9 +425,10 @@
 
     document.onreadystatechange = function () {
         if (document.readyState == "complete") {
-//            $(".loading").fadeOut();
-            alert('1')
+            $("#bg").fadeOut();
+//            alert('1')
             init()
+            musicPlay()
             var mySwiper = new Swiper('.swiper-container', {
                 direction: 'vertical',
 //            effect:"flip",
