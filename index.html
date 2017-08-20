@@ -47,7 +47,7 @@
             0% { -webkit-transform: rotateZ(0deg); }
             100% { -webkit-transform: rotateZ(360deg); }
         }
-        #myMusic { width: 34px; position: fixed; top:5px; right: 5px; z-index: 10000; }
+        #myMusic { width: 34px; position: fixed; top: 5px; right: 5px; z-index: 10000; }
         /*背景音乐控制按钮的位置 z-index值建议不要修改,因为分享层会在它上面,它会在其它层上面*/
 
         span { display: block; }
@@ -342,25 +342,6 @@
     $(function () {
         var wHeight = $(window).height();
         $('.swiper-container').height(wHeight)
-        var mySwiper = new Swiper('.swiper-container', {
-            direction: 'vertical',
-//            effect:"flip",
-//            loop: true,
-            noSwiping: true,
-            noSwipingClass: 'stop-swiping',
-            onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
-                swiperAnimateCache(swiper); //隐藏动画元素
-                swiperAnimate(swiper); //初始化完成开始动画
-            },
-            onSlideChangeEnd: function (swiper) {
-                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
-            }
-
-        })
-        $('.circle').click(function () {
-//            alert("1")
-            mySwiper.slideTo(1, 500, true)
-        })
     })
 
     function init() {
@@ -391,10 +372,33 @@
 
     }
 
-    $(window).load(function () {
-        init();
+    document.onreadystatechange = function () {
+        if (document.readyState == "complete") {
+            $(".loading").fadeOut();
+            init()
+            var mySwiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+//            effect:"flip",
+//            loop: true,
+                noSwiping: true,
+                noSwipingClass: 'stop-swiping',
+                onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+                    swiperAnimateCache(swiper); //隐藏动画元素
+                    swiperAnimate(swiper); //初始化完成开始动画
+                },
+                onSlideChangeEnd: function (swiper) {
+                    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+                }
 
-    });
+            })
+            $('.circle').click(function () {
+//            alert("1")
+                mySwiper.slideTo(1, 500, true)
+            })
+
+        }
+        ;
+    }
 
     //    $(document).ready(function () {
     //        var myvideo = document.getElementById("myvideo");
