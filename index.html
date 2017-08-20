@@ -374,7 +374,8 @@
 
     document.onreadystatechange = function () {
         if (document.readyState == "complete") {
-            $(".loading").fadeOut();
+//            $(".loading").fadeOut();
+            alert('1')
             init()
             var mySwiper = new Swiper('.swiper-container', {
                 direction: 'vertical',
